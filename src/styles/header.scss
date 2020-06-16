@@ -1,0 +1,87 @@
+@import "./utils/variables";
+
+.header {
+  position: relative;
+  z-index: 1;
+  height: 848px;
+  background-color: #56ccf2;
+  &__rectangle {
+    position: absolute;
+    width: 1128px;
+    height: 299px;
+    transform: rotate(-77deg);
+    top: 200px;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%),
+      #56ccf2;
+    border-radius: 500px;
+    &--first {
+      right: 100px;
+    }
+    &--second {
+      right: -340px;
+    }
+  }
+  &__rectangle--thick {
+    position: absolute;
+    width: 956.92px;
+    height: 53.02px;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%),
+      #56ccf2;
+    border-radius: 500px;
+    top: 394px;
+    right: -346px;
+    transform: rotate(-77deg);
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    padding-top: 49px;
+  }
+  &__logo-wrapper {
+    position: relative;
+    margin-right: 68px;
+  }
+  &__promo {
+    margin-top: 80px;
+    padding-left: 40px;
+  }
+  &__heading {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 150%;
+    color: #fff;
+  }
+  &__text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 12px 0 24px;
+    color: #fff;
+  }
+  &__image-container {
+    background: url("../images/header-background/Photo.png");
+    height: 640px;
+    margin-top: 80px;
+  }
+  &__s-networks {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: $header-social-networks-section-height;
+    top: calc(100% - #{$header-social-networks-section-height / 2});
+    right: calc( -#{$header-social-networks-section-height / 2} - 60px);
+    transform: rotate(90deg);
+  }
+  &__networks-link {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    color: #253757;
+  }
+}

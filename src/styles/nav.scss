@@ -1,0 +1,25 @@
+.nav {
+  &__list {
+    list-style: none;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) 2fr;
+    transition: all 0.3s;
+  }
+  &__item {
+    justify-self: center;
+    &--active {
+      justify-self: end;
+      border-bottom: 2px solid #fcc304;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    transition: 0.3s all;
+  }
+}

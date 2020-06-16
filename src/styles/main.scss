@@ -1,0 +1,27 @@
+@import "header";
+@import "nav";
+@import "container";
+@import "button";
+@import "image-container";
+
+html {
+  font-family: "Muli", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
