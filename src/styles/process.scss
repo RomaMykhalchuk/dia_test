@@ -1,0 +1,34 @@
+.process {
+  margin: 0 64px;
+  background-color: #e5e5e5;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    padding: 50px 0;
+  }
+  &__stages {
+    display: grid;
+    grid-template-columns: 264px 264px;
+    grid-gap: 30px;
+    justify-self: end;
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 140%;
+    color: #253757;
+  }
+  &__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #334563;
+  }
+  &__description {
+    font-weight: normal;
+    font-size: 12.6px;
+    line-height: 150%;
+    text-align: center;
+    color: #253757;
+  }
+}

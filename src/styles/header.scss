@@ -3,39 +3,47 @@
 .header {
   position: relative;
   z-index: 1;
-  height: 848px;
-  background-color: #56ccf2;
   &__rectangle {
     position: absolute;
-    width: 1128px;
-    height: 299px;
-    transform: rotate(-77deg);
-    top: 200px;
     z-index: -1;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
-    rgba(255, 255, 255, 0) 100%),
-      #56ccf2;
-    border-radius: 500px;
+    transform: skewX(-14deg) translateX(-10%);
+    &--zero {
+      width: 1029px;
+      height: 848px;
+      background-color: #56ccf2;
+    }
     &--first {
-      right: 100px;
+      width: 299px;
+      height: 1128px;
+      background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #56ccf5;
+      opacity: 0.5;
+      right: 600px;
     }
     &--second {
-      right: -340px;
+      width: 299px;
+      height: 1128px;
+      background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #56ccf2;
+      opacity: 0.5;
+      right: 300px;
+    }
+
+    &--third {
+      width: 54px;
+      height: 956px;
+      background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #56ccf2;
+      right: 255px;
     }
   }
-  &__rectangle--thick {
-    position: absolute;
-    width: 956.92px;
-    height: 53.02px;
-    z-index: -1;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
-    rgba(255, 255, 255, 0) 100%),
-      #56ccf2;
-    border-radius: 500px;
-    top: 394px;
-    right: -346px;
-    transform: rotate(-77deg);
-  }
+
   &__top {
     display: flex;
     align-items: center;
@@ -84,4 +92,33 @@
     letter-spacing: 2px;
     color: #253757;
   }
+  &__intro {
+    width: 724px;
+    margin: 165px auto;
+  }
+  &__button:hover {
+    background-color: aquamarine;
+  }
+}
+
+.test {
+  width: 300px;
+  height: 1128px;
+  background: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.25) 0%,
+  rgba(255, 255, 255, 0) 100%),
+    #56ccf2;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  transform: skewX(-11deg) translateX(-90px);
+  right: 100px;
+}
+
+.test2 {
+  height: 1000px;
+  width: 54px;
+  position: absolute;
+  z-index: -1;
+  transform: skewX(-11deg);
 }

@@ -13,7 +13,7 @@ Implement landing page according to [Figma design](https://www.figma.com/file/vh
 1. Implement `Who we are` block.
 1. Implement `Our expertise` block with the card reused 3 times.
 1. Implement `Process` block with 4 process cards.
-1. Implement `Approach` block.
+1. Implement `features` block.
 1. Implement `Testimonials` block.
 1. Implement `Vision, Passion, Results` block
     - Background use one reusable oval block many times.

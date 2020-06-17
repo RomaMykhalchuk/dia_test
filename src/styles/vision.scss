@@ -1,0 +1,45 @@
+.vision {
+  padding: 160px 0;
+  background-image: url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle.svg), url(../images/background-rect/Rectangle.svg), url(../images/background-rect/Rectangle.svg), url(../images/background-rect/Rectangle2.svg), url(../images/background-rect/Rectangle2.svg), url(../images/background-rect/Rectangle2.svg);
+  background-repeat: no-repeat;
+  background-position: top 13% left 50%,
+    top 19% right 10%,
+    top 48% right 6%,
+    left 23% bottom 7%,
+    left 77% top 7%,
+    left 32% bottom 30%,
+    top 89% right 44%,
+    right 18% top 22%,
+    bottom 19% right 12%,
+    top 49% left 10%;
+  background-color: #fff;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    margin: 0 auto;
+  }
+  &__capture {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #253757;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #334563;
+  }
+  &__button {
+    background: #2f80ed;
+    margin-top: 55px;
+    &:hover {
+      background-color: aquamarine;
+    }
+  }
+}

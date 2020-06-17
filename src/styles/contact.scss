@@ -1,0 +1,90 @@
+.contact {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 226px;
+  &__title {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 140%;
+    color: #253757;
+  }
+}
+
+.form {
+  &__capture {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+  }
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  &__field {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding-bottom: 16px;
+    margin-top: 56px;
+    &:focus {
+      border-bottom: 1px solid #144ed4;
+    }
+  }
+  &__button {
+    margin-top: 80px;
+    background-color: #2f80ed;
+    &:hover {
+      background-color: aquamarine;
+    }
+  }
+}
+
+.data {
+  &__capture {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 58px;
+  }
+  &__subcapture {
+    display: block;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #334563;
+    margin-bottom: 8px;
+  }
+  &__text {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #56ccf2;
+    margin-bottom: 48px;
+  }
+  &__socials {
+    margin-top: 16px;
+  }
+  &__icons {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  &__social-link {
+    margin: 0 10px;
+  }
+}

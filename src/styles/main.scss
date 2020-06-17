@@ -3,6 +3,16 @@
 @import "container";
 @import "button";
 @import "image-container";
+@import "intro";
+@import "activity";
+@import "we-do";
+@import "process";
+@import "stages";
+@import "features";
+@import "testimonials";
+@import "vision";
+@import "contact";
+@import "footer-navbar.scss";
 
 html {
   font-family: "Muli", sans-serif;
@@ -12,6 +22,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #e5e5e5;
 }
 
 a {

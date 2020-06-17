@@ -1,0 +1,36 @@
+.footer-navbar {
+  padding: 121px 0 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.footer-nav__item {
+  margin: 0 27px;
+}
+
+.footer-nav__link {
+  text-decoration: none;
+  color: #253757;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  padding: 5px;
+  transition: 0.3s all;
+  &:hover {
+    color: tomato;
+  }
+}
+
+.footer-nav__designer-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #253757;
+}
