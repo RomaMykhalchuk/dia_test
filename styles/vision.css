@@ -1,0 +1,39 @@
+.vision {
+  padding: 160px 0;
+  background-image: url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle1.svg), url(../images/background-rect/Rectangle.svg), url(../images/background-rect/Rectangle.svg), url(../images/background-rect/Rectangle.svg), url(../images/background-rect/Rectangle2.svg), url(../images/background-rect/Rectangle2.svg), url(../images/background-rect/Rectangle2.svg);
+  background-repeat: no-repeat;
+  background-position: top 13% left 50%, top 19% right 10%, top 48% right 6%, left 23% bottom 7%, left 77% top 7%, left 32% bottom 30%, top 89% right 44%, right 18% top 22%, bottom 19% right 12%, top 49% left 10%;
+  background-color: #fff; }
+  .vision__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 70vw;
+    margin: 0 auto; }
+  .vision__capture {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #253757; }
+  .vision__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #334563; }
+  .vision__button {
+    background: #2f80ed;
+    margin-top: 55px; }
+    .vision__button:hover {
+      background-color: aquamarine; }
+
+/*# sourceMappingURL=vision.css.map */

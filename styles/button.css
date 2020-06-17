@@ -1,0 +1,14 @@
+.button {
+  color: #253757;
+  width: 226px;
+  height: 56px;
+  border-radius: 64px;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%; }
+
+/*# sourceMappingURL=button.css.map */
